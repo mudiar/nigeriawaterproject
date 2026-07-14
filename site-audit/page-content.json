@@ -1,0 +1,701 @@
+{
+  "auditDate": "2026-07-12",
+  "source": "HTML crawl (Squarespace server-rendered; browser MCP unavailable in this session)",
+  "themeColorMap": {
+    "white": "rgb(251, 251, 251)",
+    "black": "rgb(52, 47, 47)",
+    "light": "rgb(232, 232, 232)",
+    "dark-bold": "rgb(52, 47, 47)",
+    "dark": "rgb(79, 76, 76)",
+    "bright-inverse": "rgb(251, 251, 251)",
+    "bright": "rgb(251, 251, 251)",
+    "light-bold": "rgb(232, 232, 232)",
+    "": "transparent/default"
+  },
+  "projectsDropdown": [
+    {
+      "label": "Urhokuosa Village",
+      "href": "/urhokuosa"
+    },
+    {
+      "label": "Ebue-Neki Village",
+      "href": "/ebueneki-village"
+    },
+    {
+      "label": "Iguovbiobo Village",
+      "href": "/iguovbiobo"
+    },
+    {
+      "label": "Uvbe Village",
+      "href": "/uvbevillage"
+    }
+  ],
+  "pages": {
+    "iguovbiobo": {
+      "url": "https://www.nigeriawaterproject.org/iguovbiobo",
+      "slug": "iguovbiobo",
+      "seoTitle": "General 1 — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 1,
+            "text": "borehole #4 Now complete"
+          },
+          {
+            "level": 2,
+            "text": "Thanks to you"
+          },
+          {
+            "level": 3,
+            "text": "Our 4th borehole is currently in service, bringing clean, reliable water to even more families in Nigeria. Each borehole moves us closer to our mission of providing safe water access for every community we serve."
+          }
+        ],
+        "paragraphs": [
+          "Iguovbiobo, Edo State, Nigeria"
+        ],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [],
+        "faqs": []
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/001d040a-6811-406e-a0bf-b68648fc7aee/IMG-20251112-WA0005.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1326f366-423c-4d7e-b1ca-1a6fcb2f0a56/IMG-20251112-WA0014.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/37dfbb03-36c4-4b8b-9137-fd13ca781c6d/369c823b-01a6-4685-9cb2-9298d93d972d.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/877767fe-96a4-4a82-af3a-a3792c207cd4/IMG-20251112-WA0012.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/911917f3-eb66-455a-8c1d-78b45adf7fad/PHOTO-2025-08-12-12-02-16.jpg"
+      ],
+      "videos": [],
+      "layout": {
+        "sectionCount": 2,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "68ca51487e0f30103c564d11",
+            "sectionTheme": "black",
+            "backgroundColorRgb": "rgb(52, 47, 47)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--small content-width--wide horizontal-alignment--center vertical-alignment--middle",
+            "fullBleed": true,
+            "height": "large",
+            "contentWidth": "wide",
+            "hasBackgroundImage": true,
+            "layout": "fluid-engine grid",
+            "backgroundOverlayOpacity": "0.15;"
+          },
+          {
+            "index": 1,
+            "sectionId": "68ca5fa08d26fa0d417a67d6",
+            "sectionTheme": "bright-inverse",
+            "backgroundColorRgb": "rgb(251, 251, 251)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle light",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ],
+        "notes": "Hero (black bg, large) → image gallery → text (bright-inverse) → footer (light)"
+      },
+      "forms": [],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ]
+    },
+    "uvbevillage": {
+      "url": "https://www.nigeriawaterproject.org/uvbevillage",
+      "slug": "uvbevillage",
+      "seoTitle": "Uvbe Village — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 1,
+            "text": "Thanks to\nYOU guys"
+          },
+          {
+            "level": 3,
+            "text": "UVBE"
+          }
+        ],
+        "paragraphs": [
+          "The Uvbe Village borehole is complete. See exactly where your contributions are going as well as scenes from the construction site of the borehole below.",
+          "Again, this wouldn’t be possible without you guys so thank you and let’s continue to change the world one village at a time."
+        ],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [],
+        "faqs": []
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/0d757a4b-94ec-441f-92aa-419bb2d58ab4/FRK_2947.JPG",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/5717f38a-2aae-4ead-9ccf-b867aca32830/5002e44a-aefb-458b-9245-45345ae1b513.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/b40cfc24-a25e-4d86-9ca8-f8cfda3f1b43/PHOTO-2024-12-17-09-53-05.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/b575df89-5fbe-4ff5-95ca-cbc2dc20fa27/a3e4332f-a07a-424a-9d02-2eafd05766a2.jpg"
+      ],
+      "videos": [
+        {
+          "source": "data-config-video",
+          "config": {
+            "systemDataSourceType": "mp4",
+            "alexandriaUrl": "https://video.squarespace-cdn.com/content/v1/6713770948a462333697c688/32496a36-b2a0-4f64-96d0-92d49d98644d/{variant}",
+            "durationSeconds": 173.733333,
+            "aspectRatio": 1.7666666666666666,
+            "id": "691a70ef4570b322bef4873f",
+            "systemDataVariants": "1908:1080,636:360",
+            "alexandriaLibraryId": "6713770948a462333697c688",
+            "audioCodec": "aac",
+            "systemDataId": "32496a36-b2a0-4f64-96d0-92d49d98644d",
+            "videoCodec": "h264"
+          }
+        }
+      ],
+      "layout": {
+        "sectionCount": 2,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "67257250d2ec380982fc6605",
+            "sectionTheme": "white",
+            "backgroundColorRgb": "rgb(251, 251, 251)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--small content-width--wide horizontal-alignment--center vertical-alignment--middle",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          },
+          {
+            "index": 1,
+            "sectionId": "6795187fe884411e6980e3ea",
+            "sectionTheme": "default",
+            "backgroundColorRgb": "transparent/default",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle light",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ]
+      },
+      "forms": [],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ]
+    },
+    "photos": {
+      "url": "https://www.nigeriawaterproject.org/photos",
+      "slug": "photos",
+      "seoTitle": "Photo Gallery — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 1,
+            "text": "photo gallery"
+          },
+          {
+            "level": 3,
+            "text": "CHILDREN OF THE COMMUNITY"
+          },
+          {
+            "level": 3,
+            "text": "UVBE PRIMARY SCHOOL"
+          },
+          {
+            "level": 3,
+            "text": "UVBE BOREHOLE SITE"
+          },
+          {
+            "level": 3,
+            "text": "URHOKUOSA WATER SITE"
+          },
+          {
+            "level": 3,
+            "text": "Ebue-Neki Water Site"
+          }
+        ],
+        "paragraphs": [],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [],
+        "faqs": []
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1729335925781-JZYAYCCSUIICYZ3LSC8W/10.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1729335968371-PTNVPOQM0YZC0O1J5GCJ/FRK_2822.JPG",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1734709890782-D7IHZBCLUUL99OV2CJT9/5002e44a-aefb-458b-9245-45345ae1b513+%281%29.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1738266147534-3LL8MPWGKSGKHG8IDPCY/PHOTO-2024-12-20-13-13-58.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/6ea0feab-9fed-4dff-a941-514086fe546e/1c99c754-3e3e-4f3c-98a4-76a28541e77f.jpg"
+      ],
+      "videos": [],
+      "layout": {
+        "sectionCount": 1,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "671385c03bd4956abea0938b",
+            "sectionTheme": "default",
+            "backgroundColorRgb": "transparent/default",
+            "classes": "page-section content-collection full-bleed-section collection-type-portfolio-grid-basic background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-al",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ],
+        "notes": "Hero title centered → 5 gallery sections with h3 labels, each with image grid"
+      },
+      "forms": [],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ]
+    },
+    "donate": {
+      "url": "https://www.nigeriawaterproject.org/donate",
+      "slug": "donate",
+      "seoTitle": "Donate — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 1,
+            "text": "Make an impact today"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "✽"
+          },
+          {
+            "level": 2,
+            "text": "Make a donation."
+          },
+          {
+            "level": 2,
+            "text": "FAQs"
+          },
+          {
+            "level": 4,
+            "text": "How can I write off my donation in my taxes?"
+          },
+          {
+            "level": 4,
+            "text": "How will my donation be used?"
+          },
+          {
+            "level": 4,
+            "text": "Can I make recurring donations?"
+          },
+          {
+            "level": 4,
+            "text": "How do we decide where to build boreholes?"
+          }
+        ],
+        "paragraphs": [
+          "Support our mission by contributing a donation.",
+          "Why give?",
+          "Your donation helps fund borehole projects that deliver safe, drinkable water to underserved communities in Nigeria.",
+          "100% of donations go toward water infrastructure, maintenance, and sustainability efforts, ensuring every dollar creates real change.",
+          "We don’t just build boreholes—we implement long-term water solutions, empowering local communities to maintain and manage their resources.",
+          "We provide regular updates, project reports, and impact stories, so you see exactly how your support is making a difference.",
+          "As a 501(c)(3) nonprofit, all donations are tax-deductible, making your generosity even more rewarding.",
+          "Every donation, big or small, is a step closer in transforming lives through clean water!",
+          "It all begins with a mission. Maybe you want to make a difference. Maybe you believe that access to clean water should be a human right, not a privilege. Or maybe you see the impact that safe drinking water can have on health, education, and entire communities.",
+          "Whatever drives you, the Nigeria Water Project is here to turn that vision into reality. Through sustainable borehole projects, we’re bringing clean water to underserved villages in Nigeria—and your support makes all the difference.",
+          "Nigeria Water Project is under Mud Global Solutions a 501(c)(3) nonprofit organization, which means your donation is tax-deductible. After donating, you will receive a donation receipt with our EIN (Employer Identification Number: 33-3795843), which you can use when filing your taxes. If you donate more than $250, we will provide a written acknowledgment as required by the IRS. Please consult a tax professional to ensure proper deduction based on your specific situation.",
+          "100% of your donation goes directly toward building boreholes, maintaining water infrastructure, and supporting sustainable clean water initiatives in underserved Nigerian communities. We prioritize transparency, and regular project updates are shared so you can see the direct impact of your contribution",
+          "Yes! Recurring donations are one of the best ways to ensure ongoing clean water access for communities. You can set up a monthly or annual donation on this website in the donation tab to make a lasting impact.",
+          "We work with local communities, experts, and leaders to identify villages in urgent need of clean water. Our next project is in Ebue-Nneki, Nigeria, where access to safe drinking water is scarce. Each borehole site is chosen based on population needs, water accessibility, and long-term sustainability."
+        ],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [
+          "Why give?",
+          "Your donation helps fund borehole projects that deliver safe, drinkable water to underserved communities in Nigeria.",
+          "100% of donations go toward water infrastructure, maintenance, and sustainability efforts, ensuring every dollar creates real change.",
+          "We don't just build boreholes—we implement long-term water solutions, empowering local communities to maintain and manage their resources.",
+          "We provide regular updates, project reports, and impact stories, so you see exactly how your support is making a difference.",
+          "As a 501(c)(3) nonprofit, all donations are tax-deductible, making your generosity even more rewarding.",
+          "Every donation, big or small, is a step closer in transforming lives through clean water!"
+        ],
+        "faqs": [
+          {
+            "question": "How can I write off my donation in my taxes?",
+            "answer": "Nigeria Water Project is under Mud Global Solutions a 501(c)(3) nonprofit organization, which means your donation is tax-deductible. After donating, you will receive a donation receipt with our EIN (Employer Identification Number: 33-3795843), which you can use when filing your taxes. If you donate more than $250, we will provide a written acknowledgment as required by the IRS. Please consult a tax professional to ensure proper deduction based on your specific situation."
+          },
+          {
+            "question": "How will my donation be used?",
+            "answer": "100% of your donation goes directly toward building boreholes, maintaining water infrastructure, and supporting sustainable clean water initiatives in underserved Nigerian communities. We prioritize transparency, and regular project updates are shared so you can see the direct impact of your contribution"
+          },
+          {
+            "question": "Can I make recurring donations?",
+            "answer": "Yes! Recurring donations are one of the best ways to ensure ongoing clean water access for communities. You can set up a monthly or annual donation on this website in the donation tab to make a lasting impact."
+          },
+          {
+            "question": "How do we decide where to build boreholes?",
+            "answer": "We work with local communities, experts, and leaders to identify villages in urgent need of clean water. Our next project is in Ebue-Nneki, Nigeria, where access to safe drinking water is scarce. Each borehole site is chosen based on population needs, water accessibility, and long-term sustainability."
+          }
+        ]
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1615225259531-0HK0SKZ3FR5VOEIG39FB/Rectangle+26.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1615225298850-6RK21Y7YG7VPMPS9NQT9/Rectangle+27.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5ec321c2af33de48734cc929/1615225322403-8M32U1NK41JYCCJQCWP7/Rectangle+25.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/0e7f8881-c674-4541-a292-47abd304b31a/5002e44a-aefb-458b-9245-45345ae1b513+%281%29.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/93ff2625-d406-47a6-b1c7-3eb27a51dd5a/PHOTO-2024-12-20-13-13-58.jpg"
+      ],
+      "videos": [],
+      "layout": {
+        "sectionCount": 3,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "67d131ea58551e093a58954b",
+            "sectionTheme": "dark-bold",
+            "backgroundColorRgb": "rgb(52, 47, 47)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--small content-width--wide horizontal-alignment--center vertical-alignment--middle has-background dark",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "hasBackgroundImage": true,
+            "layout": "fluid-engine grid"
+          },
+          {
+            "index": 1,
+            "sectionId": "67d131ea58551e093a58954f",
+            "sectionTheme": "white",
+            "backgroundColorRgb": "rgb(251, 251, 251)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--bottom has-background bla",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "hasBackgroundImage": true
+          },
+          {
+            "index": 2,
+            "sectionId": "67d131ea58551e093a589559",
+            "sectionTheme": "light",
+            "backgroundColorRgb": "rgb(232, 232, 232)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ]
+      },
+      "forms": [
+        {
+          "type": "Squarespace Donation Block",
+          "suggestedAmounts": [
+            "$25.00",
+            "$50.00",
+            "$100.00",
+            "$200.00",
+            "$500.00",
+            "Custom Amount"
+          ],
+          "frequencyOptions": [
+            "One-Time Donation",
+            "Weekly Donation",
+            "Monthly Donation"
+          ],
+          "currencySelector": true,
+          "submitLabel": "Donate",
+          "externalFallback": "https://donorbox.org/nigeria-water-project?default_interval=m"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ],
+      "donorboxEmbed": {
+        "script": "https://donorbox.org/install-popup-button.js",
+        "buttonHref": "https://donorbox.org/nigeria-water-project?default_interval=m",
+        "buttonStyle": {
+          "background": "rgb(133, 0, 1)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "5px"
+        }
+      }
+    },
+    "contact": {
+      "url": "https://www.nigeriawaterproject.org/contact",
+      "slug": "contact",
+      "seoTitle": "Contact — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 1,
+            "text": "Contact "
+          }
+        ],
+        "paragraphs": [
+          "For any sort of questions, concerns, collaborations concerns, or all-around inquires",
+          "mudiar@stanford.edu"
+        ],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [],
+        "faqs": []
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/39f6dffb-59cc-4288-9f91-42ac609b216b/GU0ET5sXAAAn_wV.jpg"
+      ],
+      "videos": [],
+      "layout": {
+        "sectionCount": 1,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "67137859ccf3f0398022af0d",
+            "sectionTheme": "light",
+            "backgroundColorRgb": "rgb(232, 232, 232)",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle light",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ],
+        "notes": "Two-column layout: left text + form, right hero image"
+      },
+      "forms": [
+        {
+          "formId": "67137859ccf3f0398022af03",
+          "formName": "New Form 2 3",
+          "submitLabel": "SEND",
+          "successMessage": "Thank you!",
+          "captchaEnabled": true,
+          "fields": [
+            {
+              "type": "name",
+              "title": "Name",
+              "required": true,
+              "subfields": [
+                "First Name",
+                "Last Name"
+              ]
+            },
+            {
+              "type": "email",
+              "title": "Email",
+              "required": true
+            },
+            {
+              "type": "textarea",
+              "title": "Message",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ]
+    },
+    "new-dropdown": {
+      "url": "https://www.nigeriawaterproject.org/new-dropdown",
+      "slug": "new-dropdown",
+      "seoTitle": "General 5 — Nigeria Water Project",
+      "visibleText": {
+        "headings": [
+          {
+            "level": 4,
+            "text": "WITH THE HELP OF all of you,"
+          },
+          {
+            "level": 2,
+            "text": "We’ve COMPLETEd the water installment point in urhokuosa. The water site will service a residential area, providng easy access to clean water. in the video and images below, you will see resident interact, express joy, and the development process in early december."
+          }
+        ],
+        "paragraphs": [],
+        "buttonLabels": [
+          "Donate"
+        ],
+        "scrollingText": [],
+        "faqs": []
+      },
+      "imageUrls": [
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/1737839781419-UCVMMZEPLFZAPS6ID4HY/883f4bc5-b4d4-4ecc-9e45-24e174d8219d.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/3c594ad4-9d7d-4304-9360-6af6b0313575/PHOTO-2024-12-17-09-51-31.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/798e5c85-f5f6-45b9-8c56-25437a5ced15/7ca66f71-3ea1-4a22-ad79-24e1045c9a74.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/93ff2625-d406-47a6-b1c7-3eb27a51dd5a/PHOTO-2024-12-20-13-13-58.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/cd6dcc51-8cb5-4ed7-b9cd-454c1b07f53d/PHOTO-2024-12-20-14-41-00.jpg",
+        "https://images.squarespace-cdn.com/content/v1/6713770948a462333697c688/e7626287-26fb-4e30-a4c5-1327ba8d47ed/PHOTO-2024-12-20-13-23-29.jpg"
+      ],
+      "videos": [
+        {
+          "source": "data-config-video",
+          "config": {
+            "systemDataSourceType": "mp4",
+            "alexandriaUrl": "https://video.squarespace-cdn.com/content/v1/6713770948a462333697c688/c2d9ae18-6720-497f-b9c3-35c4da61d0f1/{variant}",
+            "durationSeconds": 187.533333,
+            "aspectRatio": 1.7666666666666666,
+            "id": "691a70374570b322bef486a5",
+            "systemDataVariants": "1908:1080,636:360",
+            "alexandriaLibraryId": "6713770948a462333697c688",
+            "audioCodec": "aac",
+            "systemDataId": "c2d9ae18-6720-497f-b9c3-35c4da61d0f1",
+            "videoCodec": "h264"
+          }
+        }
+      ],
+      "layout": {
+        "sectionCount": 2,
+        "sections": [
+          {
+            "index": 0,
+            "sectionId": "67954c17d9d4331fb78ff59e",
+            "sectionTheme": "default",
+            "backgroundColorRgb": "transparent/default",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle",
+            "fullBleed": true,
+            "contentWidth": "wide",
+            "layout": "fluid-engine grid"
+          },
+          {
+            "index": 1,
+            "sectionId": "67954c17d9d4331fb78ff59f",
+            "sectionTheme": "default",
+            "backgroundColorRgb": "transparent/default",
+            "classes": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle light",
+            "fullBleed": true,
+            "contentWidth": "wide"
+          }
+        ],
+        "maxPageWidth": "1400px",
+        "pagePadding": "4vw",
+        "transparentHeader": true,
+        "headerWidth": "Inset",
+        "fonts": [
+          "Anton (headings)",
+          "Epilogue (body)"
+        ],
+        "notes": "Hero text → video → image gallery → footer"
+      },
+      "forms": [],
+      "externalLinks": [
+        {
+          "href": "https://donorbox.org/nigeria-water-project?default_interval=m",
+          "text": "Donate"
+        },
+        {
+          "href": "https://www.facebook.com/profile.php?id=61574057251365#",
+          "text": "https://www.facebook.com/profile.php?id=61574057251365#"
+        },
+        {
+          "href": "https://www.linkedin.com/company/nigeria-water-project",
+          "text": "https://www.linkedin.com/company/nigeria-water-project"
+        }
+      ],
+      "pageTitle": "Urhokuosa Village (slug: new-dropdown, also /urhokuosa)"
+    }
+  }
+}
