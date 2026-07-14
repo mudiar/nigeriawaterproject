@@ -355,9 +355,34 @@ export const albums: Record<
   },
 };
 
+/** Village pins in Edo State (Uhunmwonde LGA), WGS84 */
 export const mapPins = [
-  { id: "uvbe", name: "Uvbe", x: 42, y: 58, href: "/uvbevillage" },
-  { id: "urhokuosa", name: "Urhokuosa", x: 48, y: 48, href: "/urhokuosa" },
-  { id: "ebue", name: "Ebue-Neki", x: 55, y: 52, href: "/ebueneki-village" },
-  { id: "iguovbiobo", name: "Iguovbiobo", x: 52, y: 44, href: "/iguovbiobo" },
+  {
+    id: "uvbe",
+    name: "Uvbe",
+    lat: 6.28939,
+    lng: 5.95282,
+    href: "/uvbevillage",
+  },
+  {
+    id: "urhokuosa",
+    name: "Urhokuosa",
+    lat: 6.38535,
+    lng: 5.85172,
+    href: "/urhokuosa",
+  },
+  {
+    id: "ebue",
+    name: "Ebue-Neki",
+    lat: 6.330614,
+    lng: 5.866264,
+    href: "/ebueneki-village",
+  },
+  {
+    id: "iguovbiobo",
+    name: "Iguovbiobo",
+    lat: 6.51259,
+    lng: 5.86034,
+    href: "/iguovbiobo",
+  },
 ] as const;

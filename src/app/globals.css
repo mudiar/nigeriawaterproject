@@ -656,53 +656,91 @@ p {
   position: relative;
   border-radius: calc(var(--radius) + 6px);
   overflow: hidden;
-  background: linear-gradient(160deg, #d9ebe9, #b7d4d1 45%, #8fb9b6);
+  background: #d9ebe9;
   min-height: 420px;
+  height: 100%;
   border: 1px solid var(--line);
+}
+
+.map-wrap.map-loading {
+  background: linear-gradient(160deg, #d9ebe9, #b7d4d1 45%, #8fb9b6);
+}
+
+.map-leaflet {
+  width: 100%;
+  height: 100%;
+  min-height: 420px;
+  z-index: 0;
 }
 
 .map-label {
   position: absolute;
-  top: 1.25rem;
-  left: 1.25rem;
-  background: rgba(255, 255, 255, 0.72);
+  top: 1rem;
+  left: 1rem;
+  z-index: 500;
+  display: grid;
+  gap: 0.15rem;
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(10px);
   padding: 0.75rem 1rem;
   border-radius: var(--radius-sm);
-  font-size: 0.9rem;
-  max-width: 220px;
+  font-size: 0.85rem;
+  max-width: 240px;
+  box-shadow: 0 8px 24px rgba(12, 36, 40, 0.12);
+  color: var(--ink);
+  pointer-events: none;
 }
 
-.map-pin {
-  position: absolute;
-  transform: translate(-50%, -100%);
-  text-decoration: none;
-  display: grid;
-  justify-items: center;
-  gap: 0.35rem;
+.map-label strong {
+  font-size: 0.95rem;
 }
 
-.map-pin .dot {
-  width: 14px;
-  height: 14px;
+.map-label span {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.nwp-map-marker {
+  background: transparent;
+  border: 0;
+}
+
+.nwp-map-marker-dot {
+  display: block;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background: var(--copper);
   border: 3px solid #fff;
-  box-shadow: 0 6px 16px rgba(12, 36, 40, 0.25);
-  transition: transform 0.2s ease;
+  box-shadow: 0 6px 16px rgba(12, 36, 40, 0.28);
 }
 
-.map-pin:hover .dot {
-  transform: scale(1.2);
+.map-popup {
+  display: grid;
+  gap: 0.35rem;
+  font-family: var(--font-figtree), system-ui, sans-serif;
+  min-width: 120px;
 }
 
-.map-pin .name {
-  background: var(--foam);
-  padding: 0.25rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
+.map-popup a {
+  color: var(--water);
   font-weight: 650;
-  white-space: nowrap;
+  text-decoration: none;
+}
+
+.map-popup a:hover {
+  text-decoration: underline;
+}
+
+.leaflet-container {
+  font: inherit;
+  background: #d9ebe9;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px !important;
+  max-width: 55%;
 }
 
 /* Quotes */

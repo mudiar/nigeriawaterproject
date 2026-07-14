@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -13,7 +14,6 @@ import {
   crisisPoints,
   faqs,
   impactStats,
-  mapPins,
   mission,
   myWhy,
   org,
@@ -26,6 +26,22 @@ import {
   whyGive,
   whyNigeria,
 } from "@/lib/content";
+
+const ProjectMap = dynamic(
+  () =>
+    import("@/components/map/ProjectMap").then((mod) => mod.ProjectMap),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="map-wrap map-loading" aria-label="Loading Edo State map">
+        <div className="map-label">
+          <strong>Edo State, Nigeria</strong>
+          <span>Loading community water points…</span>
+        </div>
+      </div>
+    ),
+  },
+);
 
 export default function HomePage() {
   return (
@@ -173,22 +189,7 @@ export default function HomePage() {
           </Reveal>
           <div className="grid-2" style={{ alignItems: "stretch" }}>
             <Reveal>
-              <div className="map-wrap" aria-label="Edo State project map">
-                <div className="map-label">
-                  Edo State, Nigeria · community water points
-                </div>
-                {mapPins.map((pin) => (
-                  <Link
-                    key={pin.id}
-                    href={pin.href}
-                    className="map-pin"
-                    style={{ left: `${pin.x}%`, top: `${pin.y}%` }}
-                  >
-                    <span className="name">{pin.name}</span>
-                    <span className="dot" aria-hidden />
-                  </Link>
-                ))}
-              </div>
+              <ProjectMap />
             </Reveal>
             <div className="community-grid">
               {communities.map((c, i) => (

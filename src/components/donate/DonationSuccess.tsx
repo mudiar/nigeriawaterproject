@@ -66,8 +66,9 @@ export function DonationSuccessClient() {
           )}
           {info?.customerEmail && (
             <p style={{ color: "var(--ink-soft)" }}>
-              A branded receipt is on its way to <strong>{info.customerEmail}</strong>
-              {" "}(when email delivery is configured).
+              A thank-you email and tax receipt are on their way to{" "}
+              <strong>{info.customerEmail}</strong>. Please check your inbox
+              (and spam folder) in the next few minutes.
             </p>
           )}
           <div className="cta-row" style={{ marginTop: "1.75rem" }}>

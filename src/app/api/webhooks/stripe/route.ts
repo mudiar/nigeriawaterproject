@@ -1,10 +1,17 @@
 import { NextResponse } from "next/server";
 import type Stripe from "stripe";
+import { org } from "@/lib/content";
 import { firstNameFrom } from "@/lib/donations";
 import { sendDonationThankYouEmail } from "@/lib/email";
 import { getSiteUrl, getStripe } from "@/lib/stripe";
 
 export const runtime = "nodejs";
+
+function publicSiteUrl(): string {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "");
+  if (configured) return configured;
+  return "https://nigeriawaterproject.org";
+}
 
 export async function POST(request: Request) {
   const signature = request.headers.get("stripe-signature");
@@ -45,8 +52,12 @@ export async function POST(request: Request) {
 }
 
 async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
-  if (session.payment_status !== "paid" && session.status !== "complete") {
-    console.warn("[webhook] Session not paid/complete", session.id);
+  // Only send after Stripe confirms a successful payment
+  if (session.payment_status !== "paid") {
+    console.warn("[webhook] Session not paid; skipping email", {
+      id: session.id,
+      payment_status: session.payment_status,
+    });
     return;
   }
 
@@ -63,10 +74,10 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     undefined;
 
   const organizationName =
-    process.env.ORGANIZATION_NAME || "Nigeria Water Project";
-  const organizationEin = process.env.ORGANIZATION_EIN || "33-3795843";
+    process.env.ORGANIZATION_NAME || org.name;
+  const organizationEin = process.env.ORGANIZATION_EIN || org.ein;
   const organizationEmail =
-    process.env.ORGANIZATION_EMAIL || "nigeriawaterproject@outlook.com";
+    process.env.ORGANIZATION_EMAIL || org.emails.general;
 
   const donationDate = new Intl.DateTimeFormat("en-US", {
     year: "numeric",
@@ -75,18 +86,31 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     timeZone: "UTC",
   }).format(new Date((session.created || Date.now() / 1000) * 1000));
 
-  if (donorEmail) {
-    await sendDonationThankYouEmail({
-      to: donorEmail,
-      donorFirstName: firstNameFrom(donorName),
-      amountCents,
-      donationDate,
-      organizationName,
-      organizationEin,
-      organizationEmail,
-      siteUrl: getSiteUrl(),
-    });
-  } else {
+  const siteUrl = publicSiteUrl() || getSiteUrl();
+  const logoUrl = `${siteUrl}/assets/images/nwp-logo.png`;
+
+  if (!donorEmail) {
     console.warn("[webhook] No donor email on session", session.id);
+    return;
   }
+
+  const result = await sendDonationThankYouEmail({
+    to: donorEmail,
+    donorFirstName: firstNameFrom(donorName),
+    amountCents,
+    donationDate,
+    organizationName,
+    organizationEin,
+    organizationEmail,
+    siteUrl,
+    logoUrl,
+    facebookUrl: org.social.facebook,
+    linkedinUrl: org.social.linkedin,
+    idempotencyKey: session.id,
+  });
+
+  console.info("[webhook] Thank-you email result", {
+    sessionId: session.id,
+    ...result,
+  });
 }
