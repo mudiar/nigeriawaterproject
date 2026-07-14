@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="container grid-2">
           <Reveal>
             <span className="eyebrow">About</span>
-            <h1>Water is the foundation of a thriving community</h1>
+            <h1>Water Is the Foundation of a Thriving Community</h1>
             <p className="lede">{mission.body}</p>
           </Reveal>
           <Reveal delay={80}>
@@ -37,8 +37,8 @@ export default function AboutPage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Meet the work</span>
-              <h2>People, partners, and place</h2>
+              <span className="eyebrow">Meet the Work</span>
+              <h2>People, Partners, and Place</h2>
             </div>
           </Reveal>
           <div className="grid-3">
@@ -60,8 +60,8 @@ export default function AboutPage() {
       <section className="section band-mist">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">My why</span>
-            <h2>A personal calling, a public commitment</h2>
+            <span className="eyebrow">My Why</span>
+            <h2>A Personal Calling, a Public Commitment</h2>
           </Reveal>
           <Reveal delay={80}>
             {myWhy.map((p) => (

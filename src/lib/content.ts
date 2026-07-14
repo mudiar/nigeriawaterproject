@@ -36,23 +36,23 @@ export const nav: NavLink[] = [
 ];
 
 export const impactStats = [
-  { value: 4, suffix: "", label: "Boreholes completed", detail: "Across Edo State communities" },
-  { value: 10000, suffix: "+", label: "Residents served across all villages", detail: "Over 10,000 people with cleaner water access" },
-  { value: 100, suffix: "%", label: "Of donations to water work", detail: "Infrastructure, maintenance, sustainability" },
-  { value: 45000, suffix: "L", label: "Water storage per borehole", detail: "Three 15,000L GeePee tanks at each site" },
+  { value: 4, suffix: "", label: "Boreholes Completed", detail: "Across Edo State communities" },
+  { value: 10000, suffix: "+", label: "Residents Served Across All Villages", detail: "Over 10,000 people with cleaner water access" },
+  { value: 100, suffix: "%", label: "Of Donations to Water Work", detail: "Infrastructure, maintenance, sustainability" },
+  { value: 45000, suffix: "L", label: "Water Storage per Borehole", detail: "Three 15,000L GeePee tanks at each site" },
 ] as const;
 
 export const crisisPoints = [
   {
-    title: "Long, unsafe walks",
+    title: "Long, Unsafe Walks",
     body: "Families often travel long distances to reach unreliable or contaminated water sources, time that could be spent in school, work, or care.",
   },
   {
-    title: "Health at risk",
+    title: "Health at Risk",
     body: "Contaminated water drives waterborne disease, especially for children, and places an invisible tax on every household.",
   },
   {
-    title: "Opportunity deferred",
+    title: "Opportunity Deferred",
     body: "When collecting water fills the day, education and livelihood suffer. Clean water restores hours and hope to a community.",
   },
 ] as const;
@@ -63,7 +63,7 @@ export const whyNigeria = {
 } as const;
 
 export const mission = {
-  title: "Our mission",
+  title: "Our Mission",
   body: "We bring clean, sustainable water access to communities in Nigeria through borehole construction, community partnerships, education, and transparent impact, so families stay healthy, children stay in school, and villages can thrive.",
 } as const;
 
@@ -108,39 +108,39 @@ export const communities = [
 
 export const processSteps = [
   {
-    title: "Deep borehole drilling",
+    title: "Deep Borehole Drilling",
     body: "Deep drilling into the earth, sometimes over 100 feet, to reach clean underground water sources.",
   },
   {
-    title: "Gravel packing",
+    title: "Gravel Packing",
     body: "A layer of clean gravel surrounds the borehole casing at the water zone, acting as a natural filter to block sand and silt.",
   },
   {
-    title: "Sanitary sealing",
+    title: "Sanitary Sealing",
     body: "Bentonite clay or cement seals the top of the borehole to prevent surface contamination from entering the water source.",
   },
   {
-    title: "Submersible pump & generator",
+    title: "Submersible Pump & Generator",
     body: "A powerful electric pump (powered by a generator) draws water from the borehole and pushes it up through galvanized steel piping.",
   },
   {
-    title: "Elevated storage (GeePee tanks)",
+    title: "Elevated Storage (GeePee Tanks)",
     body: "Each borehole stores 45,000 liters across three 15,000-liter GeePee tanks mounted on a steel tower, providing pressure for reliable flow.",
   },
   {
-    title: "Sediment filtration",
+    title: "Sediment Filtration",
     body: "Before reaching the taps, water passes through sediment filters to remove particles like dirt, sand, and rust, making it cleaner and clearer.",
   },
   {
-    title: "Community tap access",
+    title: "Community Tap Access",
     body: "Clean water flows through multiple taps installed on a concrete platform serving all.",
   },
 ] as const;
 
 export const timeline = [
-  { year: "2025 · Jan", title: "Uvbe borehole complete", body: "First site live at Uvbe Primary School." },
-  { year: "2025 · Mar", title: "Urhokuosa water point", body: "Residential access celebrated with the community." },
-  { year: "2025 · Jun", title: "Ebue-Neki delivering water", body: "Serving ~4,000 residents in Edo State." },
+  { year: "2025 · Jan", title: "Uvbe Borehole Complete", body: "First site live at Uvbe Primary School." },
+  { year: "2025 · Mar", title: "Urhokuosa Water Point", body: "Residential access celebrated with the community." },
+  { year: "2025 · Jun", title: "Ebue-Neki Delivering Water", body: "Serving ~4,000 residents in Edo State." },
   { year: "2025", title: "Iguovbiobo Borehole #4", body: "Fully completed: generator-powered system with three 15,000L tanks (45,000L total)." },
 ] as const;
 
@@ -209,13 +209,13 @@ export const sdgs = [
 
 export const team = [
   {
-    name: "Founding story",
-    role: "From family conversations to community wells",
+    name: "Founding Story",
+    role: "From Family Conversations to Community Wells",
     body: "Nigeria Water Project grew from conversations with family in Nigeria about the daily cost of unsafe water, and a commitment to do something tangible about it.",
   },
   {
-    name: "Community partners",
-    role: "Residents lead site selection",
+    name: "Community Partners",
+    role: "Residents Lead Site Selection",
     body: "Local residents help choose central, accessible locations, like the Iguovbiobo site, so water points reflect unity as well as need.",
   },
   {
@@ -230,19 +230,19 @@ export const waysToHelp = [
     title: "Donate",
     body: "Fund drilling, tanks, pumps, filtration, and long-term reliability.",
     href: "/donate",
-    cta: "Give now",
+    cta: "Give Now",
   },
   {
     title: "Partner",
     body: "Sponsor a borehole, match gifts, or collaborate as a corporate ally.",
     href: "/contact",
-    cta: "Start a partnership",
+    cta: "Start a Partnership",
   },
   {
-    title: "Share stories",
+    title: "Share Stories",
     body: "Amplify community voices through our photo and video galleries.",
     href: "/photos",
-    cta: "Explore stories",
+    cta: "Explore Stories",
   },
 ] as const;
 
@@ -270,7 +270,7 @@ export const albums: Record<
   { title: string; cover: string; images: string[]; blurb: string }
 > = {
   kidscommunity: {
-    title: "Children of the community",
+    title: "Children of the Community",
     cover: "10.jpg",
     blurb: "Faces of the next generation who deserve clean water every day.",
     images: [
@@ -308,7 +308,7 @@ export const albums: Record<
     ],
   },
   "uvbe-borehole-site": {
-    title: "Uvbe borehole site",
+    title: "Uvbe Borehole Site",
     cover: "5002e44a-aefb-458b-9245-45345ae1b513.jpg",
     blurb: "Construction and completion of our first water point.",
     images: [
@@ -320,7 +320,7 @@ export const albums: Record<
     ],
   },
   "urhokuosa-water-site": {
-    title: "Urhokuosa water site",
+    title: "Urhokuosa Water Site",
     cover: "PHOTO-2024-12-20-13-13-58.jpg",
     blurb: "Joy, access, and development in early December.",
     images: [
@@ -337,7 +337,7 @@ export const albums: Record<
     ],
   },
   "ebueneki-water-site": {
-    title: "Ebue-Neki water site",
+    title: "Ebue-Neki Water Site",
     cover: "1c99c754-3e3e-4f3c-98a4-76a28541e77f.jpg",
     blurb: "From groundbreaking to clean water for thousands.",
     images: [

@@ -22,8 +22,8 @@ export default function ImpactPage() {
       <section className="page-hero">
         <div className="container">
           <Reveal>
-            <span className="eyebrow">Impact dashboard</span>
-            <h1>Results rooted in community</h1>
+            <span className="eyebrow">Impact Dashboard</span>
+            <h1>Results Rooted in Community</h1>
             <p className="lede">
               Boreholes completed, people served, and systems built to last, with
               local ownership at every site.
@@ -46,7 +46,7 @@ export default function ImpactPage() {
         <div className="container grid-2">
           <Reveal>
             <span className="eyebrow">Timeline</span>
-            <h2>2025 milestones</h2>
+            <h2>2025 Milestones</h2>
             <div className="timeline" style={{ marginTop: "2rem" }}>
               {timeline.map((item) => (
                 <div className="timeline-item" key={item.title}>
@@ -58,7 +58,7 @@ export default function ImpactPage() {
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <span className="eyebrow">Featured success</span>
+            <span className="eyebrow">Featured Success</span>
             <h2>Iguovbiobo Borehole #4</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Fully completed: a generator-powered pump system connected to three
@@ -74,7 +74,7 @@ export default function ImpactPage() {
               />
             </div>
             <Link className="btn btn-ghost" href="/iguovbiobo" style={{ marginTop: "1rem" }}>
-              View project
+              View Project
             </Link>
           </Reveal>
         </div>
@@ -85,7 +85,7 @@ export default function ImpactPage() {
           <Reveal>
             <div className="section-head">
               <span className="eyebrow">Communities</span>
-              <h2>Where clean water now flows</h2>
+              <h2>Where Clean Water Now Flows</h2>
             </div>
           </Reveal>
           <div className="community-grid">
@@ -109,8 +109,8 @@ export default function ImpactPage() {
       <section className="section band-mist">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">Our process</span>
-            <h2>Built for reliability</h2>
+            <span className="eyebrow">Our Process</span>
+            <h2>Built for Reliability</h2>
             <ol className="process" style={{ marginTop: "1.5rem" }}>
               {processSteps.map((step, i) => (
                 <li className="process-item" key={step.title}>
@@ -126,8 +126,8 @@ export default function ImpactPage() {
             </ol>
           </Reveal>
           <Reveal delay={80}>
-            <span className="eyebrow">Sustainable Development Goal alignment</span>
-            <h2>Global goals, local wells</h2>
+            <span className="eyebrow">Sustainable Development Goal Alignment</span>
+            <h2>Global Goals, Local Wells</h2>
             <div style={{ marginTop: "1.5rem" }}>
               {sdgs.map((s) => (
                 <article className="feature" key={s.code}>

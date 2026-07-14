@@ -51,7 +51,7 @@ export function ProjectMap() {
     <div className="map-wrap" aria-label="Map of Nigeria Water Project sites in Edo State, Nigeria">
       <div className="map-label">
         <strong>Edo State, Nigeria</strong>
-        <span>Community water points in Uhunmwonde LGA</span>
+        <span>Community Water Points in Uhunmwonde LGA</span>
       </div>
       <MapContainer
         center={[6.38, 5.88]}
@@ -75,7 +75,7 @@ export function ProjectMap() {
             <Popup>
               <div className="map-popup">
                 <strong>{pin.name}</strong>
-                <Link href={pin.href}>View project</Link>
+                <Link href={pin.href}>View Project</Link>
               </div>
             </Popup>
           </Marker>

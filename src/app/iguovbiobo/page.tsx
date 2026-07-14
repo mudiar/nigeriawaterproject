@@ -38,7 +38,7 @@ export default function IguovbioboPage() {
             />
             Nigeria Water Project
           </p>
-          <h1>Borehole #4 now complete</h1>
+          <h1>Borehole #4 Now Complete</h1>
           <p className="lede">Iguovbiobo, Edo State, Nigeria</p>
         </div>
       </section>
@@ -46,8 +46,8 @@ export default function IguovbioboPage() {
       <section className="section band-foam">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">Thanks to you</span>
-            <h2>Our 4th borehole is fully completed</h2>
+            <span className="eyebrow">Thanks to You</span>
+            <h2>Our 4th Borehole Is Fully Completed</h2>
           </Reveal>
           <Reveal delay={80}>
             <p className="lede">

@@ -149,7 +149,7 @@ export function DonationForm({ ein = "33-3795843" }: DonationFormProps) {
         disabled={loading}
         aria-busy={loading}
       >
-        {loading ? "Redirecting to secure checkout…" : "Donate with card"}
+        {loading ? "Redirecting to Secure Checkout…" : "Donate With Card"}
       </button>
 
       <p

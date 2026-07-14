@@ -36,7 +36,7 @@ const ProjectMap = dynamic(
       <div className="map-wrap map-loading" aria-label="Loading Edo State map">
         <div className="map-label">
           <strong>Edo State, Nigeria</strong>
-          <span>Loading community water points…</span>
+          <span>Loading Community Water Points…</span>
         </div>
       </div>
     ),
@@ -69,7 +69,7 @@ export default function HomePage() {
             />
             Nigeria Water Project
           </p>
-          <h1>Clean water. Stronger villages. Lasting hope.</h1>
+          <h1>Clean Water. Stronger Villages. Lasting Hope.</h1>
           <p className="lede">
             We build community-led boreholes across Nigeria so families can
             thrive: healthy, in school, and free from the daily search for unsafe
@@ -77,10 +77,10 @@ export default function HomePage() {
           </p>
           <div className="cta-row">
             <Link className="btn btn-primary" href="/donate">
-              Donate now
+              Donate Now
             </Link>
             <Link className="btn btn-secondary" href="/impact">
-              See our impact
+              See Our Impact
             </Link>
           </div>
         </div>
@@ -91,8 +91,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">The water crisis</span>
-              <h2>When water is far, everything else waits.</h2>
+              <span className="eyebrow">The Water Crisis</span>
+              <h2>When Water Is Far, Everything Else Waits.</h2>
               <p className="lede">
                 Across underserved communities, contaminated sources and long
                 walks still define daily life, especially for children.
@@ -147,7 +147,7 @@ export default function HomePage() {
             <p className="lede">{mission.body}</p>
             <div className="cta-row" style={{ marginTop: "1.5rem" }}>
               <Link className="btn btn-primary" href="/about">
-                Our story
+                Our Story
               </Link>
             </div>
           </Reveal>
@@ -159,8 +159,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Our impact</span>
-              <h2>Progress you can measure and visit.</h2>
+              <span className="eyebrow">Our Impact</span>
+              <h2>Progress You Can Measure and Visit.</h2>
             </div>
           </Reveal>
           <div className="stats">
@@ -183,8 +183,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Communities we’ve served</span>
-              <h2>Four villages. Four water points. Countless mornings changed.</h2>
+              <span className="eyebrow">Communities We’ve Served</span>
+              <h2>Four Villages. Four Water Points. Countless Mornings Changed.</h2>
             </div>
           </Reveal>
           <div className="grid-2" style={{ alignItems: "stretch" }}>
@@ -222,8 +222,8 @@ export default function HomePage() {
       <section className="section band-foam" id="process">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">How wells change lives</span>
-            <h2>From deep aquifer to community tap.</h2>
+            <span className="eyebrow">How Wells Change Lives</span>
+            <h2>From Deep Aquifer to Community Tap.</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Every borehole is engineered for reliability: drilling, sealing,
               pumping, storage, filtration, and shared access.
@@ -272,8 +272,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Photo & video stories</span>
-              <h2>See the water flow. Hear the community.</h2>
+              <span className="eyebrow">Photo & Video Stories</span>
+              <h2>See the Water Flow. Hear the Community.</h2>
             </div>
           </Reveal>
           <div className="grid-2">
@@ -303,8 +303,8 @@ export default function HomePage() {
       <section className="section band-foam" id="transparency">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">Financial transparency</span>
-            <h2>100% of donations fund water work.</h2>
+            <span className="eyebrow">Financial Transparency</span>
+            <h2>100% of Donations Fund Water Work.</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Your gift goes directly toward boreholes, infrastructure,
               maintenance, and sustainability. {org.legal} EIN {org.ein}.
@@ -328,8 +328,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Sustainable Development Goal alignment</span>
-              <h2>Built with communities. Aligned with global goals.</h2>
+              <span className="eyebrow">Sustainable Development Goal Alignment</span>
+              <h2>Built With Communities. Aligned With Global Goals.</h2>
             </div>
           </Reveal>
           <div className="grid-4">
@@ -347,7 +347,7 @@ export default function HomePage() {
             <p style={{ marginTop: "2rem", maxWidth: "40rem" }}>
               Corporate partners, matching-gift programs, and village leaders make
               this work possible.{" "}
-              <Link href="/contact">Inquire about partnership →</Link>
+              <Link href="/contact">Inquire About Partnership →</Link>
             </p>
           </Reveal>
         </div>
@@ -358,8 +358,8 @@ export default function HomePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">From our donors</span>
-              <h2>Voices walking with us.</h2>
+              <span className="eyebrow">From Our Donors</span>
+              <h2>Voices Walking With Us.</h2>
             </div>
           </Reveal>
           <div className="quotes">
@@ -379,8 +379,8 @@ export default function HomePage() {
       <section className="section band-mist">
         <div className="container grid-2">
           <Reveal>
-            <span className="eyebrow">Project timeline</span>
-            <h2>A year of wells.</h2>
+            <span className="eyebrow">Project Timeline</span>
+            <h2>A Year of Wells.</h2>
             <div className="timeline" style={{ marginTop: "2rem" }}>
               {timeline.map((item) => (
                 <div className="timeline-item" key={item.title}>
@@ -392,8 +392,8 @@ export default function HomePage() {
             </div>
           </Reveal>
           <Reveal delay={80}>
-            <span className="eyebrow">Founder’s why</span>
-            <h2>My why</h2>
+            <span className="eyebrow">Founder’s Why</span>
+            <h2>My Why</h2>
             {myWhy.map((p) => (
               <p key={p.slice(0, 32)} style={{ color: "var(--ink-soft)" }}>
                 {p}
@@ -409,7 +409,7 @@ export default function HomePage() {
           <Reveal>
             <div className="section-head">
               <span className="eyebrow">FAQ</span>
-              <h2>Clear answers. Real accountability.</h2>
+              <h2>Clear Answers. Real Accountability.</h2>
             </div>
           </Reveal>
           <Reveal>
@@ -431,9 +431,9 @@ export default function HomePage() {
           <Reveal>
             <div className="section-head">
               <span className="eyebrow" style={{ color: "#b7efec" }}>
-                Ways to help
+                Ways to Help
               </span>
-              <h2>Choose how you’ll bring the next drop.</h2>
+              <h2>Choose How You’ll Bring the Next Drop.</h2>
             </div>
           </Reveal>
           <div className="help-grid">
@@ -451,7 +451,7 @@ export default function HomePage() {
           </div>
           <Reveal>
             <div style={{ marginTop: "3rem", maxWidth: "36rem" }}>
-              <h3 style={{ marginBottom: "0.75rem" }}>Stay close to the work</h3>
+              <h3 style={{ marginBottom: "0.75rem" }}>Stay Close to the Work</h3>
               <NewsletterForm />
             </div>
           </Reveal>
@@ -462,17 +462,17 @@ export default function HomePage() {
       <section className="section band-ink">
         <div className="container grid-2">
           <Reveal>
-            <h2>Every gift moves water closer to home.</h2>
+            <h2>Every Gift Moves Water Closer to Home.</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Join donors funding boreholes that communities can trust for years
               to come.
             </p>
             <div className="cta-row" style={{ marginTop: "1.5rem" }}>
               <Link className="btn btn-primary" href="/donate">
-                Make a donation
+                Make a Donation
               </Link>
               <a className="btn btn-secondary" href={`mailto:${org.emails.general}`}>
-                Talk to our team
+                Talk to Our Team
               </a>
             </div>
           </Reveal>
@@ -494,7 +494,7 @@ export default function HomePage() {
         <div className="container grid-2">
           <Reveal>
             <span className="eyebrow">Contact</span>
-            <h2>Questions, partnerships, or ideas?</h2>
+            <h2>Questions, Partnerships, or Ideas?</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Any questions, concerns, or partnership inquiries? Please reach out.
             </p>

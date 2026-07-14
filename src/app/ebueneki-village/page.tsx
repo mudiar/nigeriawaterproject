@@ -22,7 +22,7 @@ export default function EbueNekiPage() {
           <Reveal>
             <span className="eyebrow">Community · June 2025</span>
             <h1>
-              Now delivering clean, reliable water to Ebue-Neki, Edo State,
+              Now Delivering Clean, Reliable Water to Ebue-Neki, Edo State,
               Nigeria
             </h1>
             <p className="lede">
@@ -66,8 +66,8 @@ export default function EbueNekiPage() {
         <div className="container">
           <Reveal>
             <div className="section-head center">
-              <span className="eyebrow">Development phase</span>
-              <h2>Water underground, then shared above</h2>
+              <span className="eyebrow">Development Phase</span>
+              <h2>Water Underground, Then Shared Above</h2>
               <p className="lede" style={{ marginInline: "auto" }}>
                 This is from after we successfully reached our water point
                 underground and pumped clean water. See in the videos below as
@@ -104,13 +104,13 @@ export default function EbueNekiPage() {
       <section className="section band-foam">
         <div className="container grid-2">
           <Reveal>
-            <h2>Keep the momentum going</h2>
+            <h2>Keep the Momentum Going</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               Your gift funds the next borehole for families still waiting on
               clean water.
             </p>
             <Link className="btn btn-ghost" href="/photos/ebueneki-water-site">
-              Ebue-Neki photo story
+              Ebue-Neki Photo Story
             </Link>
           </Reveal>
           <Reveal delay={80}>

@@ -115,7 +115,7 @@ export function Footer() {
           </p>
           <div style={{ marginTop: "1.25rem" }}>
             <a className="btn btn-primary" href="/donate">
-              Donate now
+              Donate Now
             </a>
           </div>
         </div>

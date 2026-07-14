@@ -17,7 +17,7 @@ export default function UvbePage() {
         <div className="container grid-2">
           <Reveal>
             <span className="eyebrow">Community · January 2025</span>
-            <h1>Thanks to you</h1>
+            <h1>Thanks to You</h1>
             <p className="lede">
               The Uvbe Village borehole is complete. See exactly where your
               contributions are going, and scenes from the construction site

@@ -17,7 +17,7 @@ export default function UrhokuosaPage() {
         <div className="container">
           <Reveal>
             <span className="eyebrow">Community · March 2025</span>
-            <h1>With the help of all of you</h1>
+            <h1>With the Help of All of You</h1>
             <p className="lede">
               We’ve completed the water installment point in Urhokuosa. The water
               site will service a residential area, providing easy access to

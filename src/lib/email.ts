@@ -32,7 +32,7 @@ function buildText(payload: ThankYouEmailPayload): string {
   const amount = formatUsd(payload.amountCents);
   const lines = [
     "Nigeria Water Project",
-    "Thank you for your gift",
+    "Thank You for Your Gift",
     "",
     greeting,
     "",
@@ -102,7 +102,7 @@ function buildHtml(payload: ThankYouEmailPayload): string {
             <td style="background:linear-gradient(145deg,#0d7377 0%,#0a5c60 55%,#0c2428 100%);padding:28px 28px 24px;text-align:center;">
               <img src="${logoUrl}" width="64" height="64" alt="Nigeria Water Project" style="display:block;margin:0 auto 14px;border:0;border-radius:12px;background:#ffffff;padding:6px;" />
               <div style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#b7e4e2;font-weight:700;">Nigeria Water Project</div>
-              <h1 style="margin:10px 0 0;font-size:28px;line-height:1.25;font-weight:700;color:#ffffff;">Thank you for your gift</h1>
+              <h1 style="margin:10px 0 0;font-size:28px;line-height:1.25;font-weight:700;color:#ffffff;">Thank You for Your Gift</h1>
             </td>
           </tr>
           <tr>
@@ -119,7 +119,7 @@ function buildHtml(payload: ThankYouEmailPayload): string {
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#eef7f6;border-radius:14px;border:1px solid #d5e8e6;">
                 <tr>
                   <td style="padding:20px 22px;font-size:14px;line-height:1.8;color:#0c2428;">
-                    <div style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#0d7377;font-weight:700;margin-bottom:8px;">Donation receipt</div>
+                    <div style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:#0d7377;font-weight:700;margin-bottom:8px;">Donation Receipt</div>
                     <div><strong style="color:#0c2428;">Amount:</strong> ${amount}</div>
                     <div><strong style="color:#0c2428;">Date:</strong> ${donationDate}</div>
                     <div><strong style="color:#0c2428;">Organization:</strong> ${orgName}</div>

@@ -17,7 +17,7 @@ export default function DonatePage() {
         <div className="container grid-2">
           <Reveal>
             <span className="eyebrow">Donate</span>
-            <h1>Make an impact today</h1>
+            <h1>Make an Impact Today</h1>
             <p className="lede">
               Support our mission by contributing a donation. Every gift helps
               fund safe, drinkable water for underserved communities in Nigeria.
@@ -33,8 +33,8 @@ export default function DonatePage() {
         <div className="container">
           <Reveal>
             <div className="section-head">
-              <span className="eyebrow">Why give?</span>
-              <h2>Your generosity becomes infrastructure.</h2>
+              <span className="eyebrow">Why Give?</span>
+              <h2>Your Generosity Becomes Infrastructure.</h2>
             </div>
           </Reveal>
           <div className="grid-3">
@@ -52,7 +52,7 @@ export default function DonatePage() {
       <section className="section band-mist">
         <div className="container grid-2">
           <Reveal>
-            <h2>Make a donation.</h2>
+            <h2>Make a Donation.</h2>
             <p className="lede" style={{ marginTop: "1rem" }}>
               It all begins with a mission. Maybe you want to make a difference.
               Maybe you believe that access to clean water should be a human

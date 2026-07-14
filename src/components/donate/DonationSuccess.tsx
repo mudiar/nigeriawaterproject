@@ -51,8 +51,8 @@ export function DonationSuccessClient() {
     <section className="page-hero" style={{ paddingBottom: "5rem" }}>
       <div className="container" style={{ maxWidth: "720px" }}>
         <Reveal>
-          <span className="eyebrow">Donation received</span>
-          <h1>Thank you{firstName ? `, ${firstName}` : ""}</h1>
+          <span className="eyebrow">Donation Received</span>
+          <h1>Thank You{firstName ? `, ${firstName}` : ""}</h1>
           <p className="lede">
             Your support brings clean water closer to families across Nigeria.
             {info?.amountFormatted
@@ -73,10 +73,10 @@ export function DonationSuccessClient() {
           )}
           <div className="cta-row" style={{ marginTop: "1.75rem" }}>
             <Link className="btn btn-primary" href="/impact">
-              See our impact
+              See Our Impact
             </Link>
             <Link className="btn btn-ghost" href="/">
-              Back to home
+              Back to Home
             </Link>
           </div>
         </Reveal>

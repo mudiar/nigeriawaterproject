@@ -15,7 +15,7 @@ export default function ContactPage() {
       <div className="container grid-2">
         <Reveal>
           <span className="eyebrow">Contact</span>
-          <h1>Let’s build the next well together</h1>
+          <h1>Let’s Build the Next Well Together</h1>
           <p className="lede">
             For any sort of questions, concerns, collaboration ideas, or
             all-around inquiries. Reach out.
@@ -52,7 +52,7 @@ export default function ContactPage() {
         <Reveal delay={80}>
           <div className="donate-panel">
             <h2 style={{ fontSize: "1.6rem", marginBottom: "1rem" }}>
-              Send a message
+              Send a Message
             </h2>
             <ContactForm />
           </div>

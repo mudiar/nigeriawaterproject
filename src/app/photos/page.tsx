@@ -17,7 +17,7 @@ export default function PhotosPage() {
         <div className="container">
           <Reveal>
             <span className="eyebrow">Stories</span>
-            <h1>Photo gallery</h1>
+            <h1>Photo Gallery</h1>
             <p className="lede">
               Evidence of impact: children, classrooms, construction sites, and
               the joy of clean water arriving.

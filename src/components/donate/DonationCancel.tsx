@@ -6,8 +6,8 @@ export function DonationCancel() {
     <section className="page-hero" style={{ paddingBottom: "5rem" }}>
       <div className="container" style={{ maxWidth: "720px" }}>
         <Reveal>
-          <span className="eyebrow">Checkout canceled</span>
-          <h1>No charge was made</h1>
+          <span className="eyebrow">Checkout Canceled</span>
+          <h1>No Charge Was Made</h1>
           <p className="lede">
             Your donation was not completed. You can return anytime. Every gift
             helps fund clean water for communities in Nigeria.
@@ -17,7 +17,7 @@ export function DonationCancel() {
               Try again
             </Link>
             <Link className="btn btn-ghost" href="/">
-              Back to home
+              Back to Home
             </Link>
           </div>
         </Reveal>
