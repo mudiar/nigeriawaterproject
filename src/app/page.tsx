@@ -184,7 +184,7 @@ export default function HomePage() {
           <Reveal>
             <div className="section-head">
               <span className="eyebrow">Communities We’ve Served</span>
-              <h2>Four Villages. Four Water Points. Countless Mornings Changed.</h2>
+              <h2>Five Communities. Five Water Points. Countless Mornings Changed.</h2>
             </div>
           </Reveal>
           <div className="grid-2" style={{ alignItems: "stretch" }}>

@@ -133,6 +133,7 @@ export function Footer() {
           <Link href="/urhokuosa">Urhokuosa</Link>
           <Link href="/ebueneki-village">Ebue-Neki</Link>
           <Link href="/iguovbiobo">Iguovbiobo</Link>
+          <Link href="/fortress-academy">Fortress Academy</Link>
         </div>
         <div>
           <h4>Contact</h4>

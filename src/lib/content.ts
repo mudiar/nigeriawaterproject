@@ -28,6 +28,7 @@ export const nav: NavLink[] = [
       { label: "Urhokuosa Village", href: "/urhokuosa" },
       { label: "Ebue-Neki Village", href: "/ebueneki-village" },
       { label: "Iguovbiobo Village", href: "/iguovbiobo" },
+      { label: "Fortress Academy", href: "/fortress-academy" },
     ],
   },
   { label: "About", href: "/about" },
@@ -104,6 +105,15 @@ export const communities = [
       "Borehole #4 is fully completed: a generator-powered pump system connected to three 15,000-liter GeePee tanks (45,000 liters total), chosen by residents for a central village location.",
     image: "/assets/images/IMG-20251112-WA0012.jpg",
   },
+  {
+    slug: "fortress-academy",
+    name: "Fortress Academy",
+    date: "2026",
+    status: "Near Completion",
+    summary:
+      "Borehole #5 on the Fortress Academy campus brings 45,000 liters of clean water storage to students, teachers, and staff in Edo State.",
+    image: "/assets/images/fortress-academy/tanks-and-taps.png",
+  },
 ] as const;
 
 export const processSteps = [
@@ -142,6 +152,7 @@ export const timeline = [
   { year: "2025 · Mar", title: "Urhokuosa Water Point", body: "Residential access celebrated with the community." },
   { year: "2025 · Jun", title: "Ebue-Neki Delivering Water", body: "Serving ~4,000 residents in Edo State." },
   { year: "2025", title: "Iguovbiobo Borehole #4", body: "Fully completed: generator-powered system with three 15,000L tanks (45,000L total)." },
+  { year: "2026", title: "Fortress Academy Borehole #5", body: "Near completion on campus: clean water for students, teachers, and staff." },
 ] as const;
 
 export const testimonials = [
@@ -384,5 +395,12 @@ export const mapPins = [
     lat: 6.51259,
     lng: 5.86034,
     href: "/iguovbiobo",
+  },
+  {
+    id: "fortress",
+    name: "Fortress Academy",
+    lat: 6.352,
+    lng: 5.628,
+    href: "/fortress-academy",
   },
 ] as const;
