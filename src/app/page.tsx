@@ -1,6 +1,6 @@
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
+import { ProjectMapSection } from "@/components/map/ProjectMapSection";
 import {
   ContactForm,
   DonationForm,
@@ -26,22 +26,6 @@ import {
   whyGive,
   whyNigeria,
 } from "@/lib/content";
-
-const ProjectMap = dynamic(
-  () =>
-    import("@/components/map/ProjectMap").then((mod) => mod.ProjectMap),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="map-wrap map-loading" aria-label="Loading Edo State map">
-        <div className="map-label">
-          <strong>Edo State, Nigeria</strong>
-          <span>Loading Community Water Points…</span>
-        </div>
-      </div>
-    ),
-  },
-);
 
 export default function HomePage() {
   return (
@@ -189,7 +173,7 @@ export default function HomePage() {
           </Reveal>
           <div className="grid-2" style={{ alignItems: "stretch" }}>
             <Reveal>
-              <ProjectMap />
+              <ProjectMapSection />
             </Reveal>
             <div className="community-grid">
               {communities.map((c, i) => (
