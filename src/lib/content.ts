@@ -29,6 +29,7 @@ export const nav: NavLink[] = [
       { label: "Ebue-Neki Village", href: "/ebueneki-village" },
       { label: "Iguovbiobo Village", href: "/iguovbiobo" },
       { label: "Fortress Academy", href: "/fortress-academy" },
+      { label: "Ohovbe Community", href: "/ohovbe" },
     ],
   },
   { label: "About", href: "/about" },
@@ -114,6 +115,15 @@ export const communities = [
       "Borehole #5 on the Fortress Academy campus brings 45,000 liters of clean water storage to students, teachers, and staff in Edo State.",
     image: "/assets/images/fortress-academy/tanks-and-taps.png",
   },
+  {
+    slug: "ohovbe",
+    name: "Ohovbe Community",
+    date: "2026",
+    status: "Near Completion",
+    summary:
+      "Borehole #6 serves more than 4,000 residents in Ohovbe, Ikpoba-Okha LGA, bringing clean water to the heart of a growing Benin City neighborhood.",
+    image: "/assets/images/ohovbe/community-gathering.png",
+  },
 ] as const;
 
 export const processSteps = [
@@ -153,6 +163,7 @@ export const timeline = [
   { year: "2025 · Jun", title: "Ebue-Neki Delivering Water", body: "Serving ~4,000 residents in Edo State." },
   { year: "2025", title: "Iguovbiobo Borehole #4", body: "Fully completed: generator-powered system with three 15,000L tanks (45,000L total)." },
   { year: "2026", title: "Fortress Academy Borehole #5", body: "Near completion on campus: clean water for students, teachers, and staff." },
+  { year: "2026", title: "Ohovbe Community Borehole #6", body: "Near completion in Ikpoba-Okha: clean water for 4,000+ residents." },
 ] as const;
 
 export const testimonials = [
@@ -402,5 +413,12 @@ export const mapPins = [
     lat: 6.352,
     lng: 5.628,
     href: "/fortress-academy",
+  },
+  {
+    id: "ohovbe",
+    name: "Ohovbe",
+    lat: 6.338,
+    lng: 5.695,
+    href: "/ohovbe",
   },
 ] as const;
