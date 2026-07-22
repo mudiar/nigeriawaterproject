@@ -24,8 +24,12 @@ export const metadata: Metadata = {
   description:
     "Bringing clean, sustainable water access to communities in Nigeria through borehole construction, community partnerships, and transparent impact.",
   icons: {
-    icon: "/assets/images/nwp-logo.png",
-    apple: "/assets/images/nwp-logo.png",
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/assets/images/nwp-logo.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
   },
   openGraph: {
     title: "Nigeria Water Project",
